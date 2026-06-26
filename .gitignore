@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+*.log
+_app*.log
+
+.DS_Store
+Thumbs.db
+
+# Original upstream clone used as implementation reference.
+# Runtime assets needed by this app are copied into assets/pixel_office.
+pixel-agents/
+
+node_modules/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
